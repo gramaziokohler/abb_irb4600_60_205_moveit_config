@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: abb_irb4600_60_205
+    relative_path: urdf/irb4600_60_205.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/abb_irb4600_60_205.srdf
+  CONFIG:
+    author_name: Nizar Taha
+    author_email: taha@arch.ethz.ch
+    generated_timestamp: 1608054921
